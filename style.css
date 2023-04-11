@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto&family=Rubik&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9fe;
+    height: 100vh;
+    width: 100vw;
+    
+    font-family: 'Lato', sans-serif;
+}
+section{
+    padding: 50% 0;
+}
+.container{
+    max-width: 1024px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 26px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.card:hover{
+    box-shadow: rgba(149, 157, 165, 0.6) 0px 30px 24px;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 2) 0px 12px 24px;
+    margin-bottom: 20px;
+}
+
+.head{
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0%;
+}
+
+a{
+    transition: 0.6s;
+    box-shadow: rgba(149, 157, 165, 2) 0px 8px 24px;
+    border-radius: 50%;
+}
+a:hover{
+    transform: translate(0, -6px);
+}
+.icons{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.icon{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #000;
+}
+.icon:hover{
+    color: #fff;
+}
+.fa-github:hover{
+    background-color: #171515;
+}
+.fa-instagram:hover{
+    background-color: #e4405f;
+}
+.fa-linkedin-in:hover{
+    background-color: #0a66c2;
+}
